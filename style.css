@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Nexa';
+    src: url(fonts/Nexa\ Light.otf);
+}
+
+@font-face {
+    font-family: 'Nexa-bold';
+    src: url(fonts/Nexa\ Bold.otf);
+}
+
+*{
+    font-family: 'Nexa-bold';
+}
+
+body{
+    background-color: #121212;
+}
+
+.nav{
+    color: white;
+    margin-left: 20px;
+    background-color: #121212;
+    
+}
+
+.sideBar{
+    font-size: 14px;
+    margin-top: 80px;
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding: 5px;
+    background-color: #252525;
+    
+}
+
+.sideBar > a{
+    padding: 6px 8px 16px 16px;
+    text-decoration: none;
+    display: block;
+    color: #c9c9c9;
+}
+
+.sideBar > a:visited{
+    padding: 6px 8px 16px 16px;
+    text-decoration: none;
+    display: block;
+    color: #c9c9c9;
+}
+
+.adLeft{
+    font-size: 14px;
+    margin-top: 80px;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    margin-left: 203px;
+    overflow-x: hidden;
+    padding: 5px;
+    background-color: gray;
+    
+}
+
+.adRight{
+    font-size: 14px;
+    margin-top: 80px;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    padding: 5px;
+    margin-right: 55px;
+    background-color: gray;
+    
+}
+
+.collecion_juegos{
+    margin-left: 23%;
+    margin-right: 17%;
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: repeat(5, 250px);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    background-color: #252525;
+    margin-bottom: 200px;
+    padding: 20px;
+}
+
+.collecion_juegos > div{
+    text-align: center;
+    background-color: #383838;
+    padding: 20px;
+}
+
+.collecion_juegos > div > a > img{
+    width: 150px;
+    height: 150px;
+}
+.collecion_juegos > div > img{ /*temp*/
+    width: 150px;
+    height: 150px;
+}
+
+.juego{
+    padding: 40px;
+    margin-left: 23%;
+}
+
+.juego > iframe{
+    height: 80vh;
+    width: 80%;
+}
+
+a{
+    color: #c9c9c9;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #c9c9c9;
+}
