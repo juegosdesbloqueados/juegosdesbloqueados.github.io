@@ -1,0 +1,1 @@
+const config={enemyHitPoints:{enemy1:8,enemy2:16,enemy3:30,enemy4:40,enemy5:6},heroHeartCount:3,planeType:"1",bossWaveNumber:6,isLevelBased:!0,isLevelTextTweenEnabled:!1,isWeaponDrop:!1,enemyDiveSeconds:1};
